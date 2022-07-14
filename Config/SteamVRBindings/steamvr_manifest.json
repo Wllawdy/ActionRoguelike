@@ -154,6 +154,14 @@
 		{
 			"name": "/actions/main/in/Turn axis",
 			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/LookUp axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -398,6 +406,8 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/MoveForward axis": "MoveForward",
 			"/actions/main/in/Turn axis": "Turn",
+			"/actions/main/in/MoveRight axis": "MoveRight",
+			"/actions/main/in/LookUp axis": "LookUp",
 			"/actions/main": "Main Game Actions"
 		}
 	]

@@ -26,6 +26,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;//变量在蓝图中暴露出来
 	void MoveForward(float value);
+	void MoveRight(float value);
 	virtual void BeginPlay() override;
 
 public:	
